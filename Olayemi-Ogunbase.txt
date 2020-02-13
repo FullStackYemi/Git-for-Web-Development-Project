@@ -1,0 +1,137 @@
+Completed CodePen: https://codepen.io/FullStackYemi/pen/gOppeqa?editors=1100    
+    
+    
+    
+    1. What is Semantic HTML? 
+        Semantic HTML is what gives meaning to the code. It's structure that can be read by screen readers. 
+
+    2. What is HTML used for? 
+        It's a markup language. It's used to describe the structure of the page. Think of the foundation and frame for a house. 
+
+    3. What is an attribute and where do we put it? 
+        Attributes provide extra information about elements. We place them within the <>.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The h1 tag is used for the title of a page or post. It should be used once on a page.
+
+    5. Name two tags that have required attributes
+        img and a 
+
+    6. What do we put in the head of our HTML document? 
+        Tags that identify the document as an HTML doc, and are essential to it, including metadata and tags like <title>, <meta>, <script>, <style>.
+
+    7. What is an id? 
+        An ID is a unique identifier that specifies something within an HTML element. 
+
+    8. What elements can I add an id to? 
+        Any HTML element. 
+
+    9. How many times can I use the same id on a page? 
+        Once. 
+
+    10. What is a class? 
+        A class is an attribute that can be used multiple times on any HTML element. The attribute can be used to define styles for HTML elements with the same class name. 
+
+    11. What elements can I add a class to? 
+        It can be added to any HTML element. 
+
+    12. How many times can I use the same class on a page? 
+        As many times as you want. 
+
+    13. How do I get my link to open in a new tab?
+        <a href="https://www.google.com" target="_blank">Open Me</a>
+
+    14. What is the alt attribute used for? 
+        It's used to specify the use of alternative text if an image can't be displayed. Screen readers use it, as the value in the attribute is read to the visually impaired person. 
+
+    15. How do I reference an id?
+        #ID name
+
+    16. What is the difference between a section and a div?
+        Sections are semantic HTML. They can be read and identified by screen readers. Divs are for presentational elements. You use divs to break up the elements that get specific CSS applied to them. 
+
+    17. What is CSS used for? 
+        CSS is used for styling the HTML elements. It adds beauty to the page structure. 
+
+    18. How to we select an element? Example - every h2 on the page
+        h2 {
+
+        }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Classes are for identifying more than one element on a page. IDs are for identifying a single element on a page. 
+
+    20. How do we select classes in CSS?
+        .classname {
+
+        }
+
+    21. How do we select a p element with a single class of “human””?
+        p.human {
+
+        }
+
+    22. What is a parent child selector? When would this be useful? 
+        It's a selector that selects all the elements that are direct children of the specific parent element. It's useful for bring the features of the parent element into the elements of the children. 
+
+    23. How do you select all links within a div with the class of sidebar?
+        div.sidebar a {
+
+        }
+
+    24. What is a pseudo selector?
+        It defines a special state of an element. Like if such as when a link is visited (:visit) or hovered over (:hover)
+
+    25. What do we use the change the spacing between lines?
+        line-height: Npx;
+
+    26. What do we use to change the spacing between letters?
+        letter-spacing: Npx;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+         div {
+            border: 1px dotted black;
+        }
+
+    29. How do I select everything on the page? 
+        * {
+
+        }
+
+    30. How do I write a comment in CSS?
+        /* comment text */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        rm fileName . Must be careful with it because there's no warning in the command line like there is in a GUI. You delete it, it's GONE.  
+
+    34. Why should I use version control? 
+        Version control is a best practice. It makes sure that you can retrieve specific versions of a file, in case of an error, or if there's something else that would have been better built. 
+
+    35. How often should I commit to github?
+        Every 15-20 minutes, or after a major change is made. 
+
+    36. What is the command we would use to push our repo up to github? 
+        git push --set-upstream origin Olayemi-Ogunbase
+
+    37. Walk me through Lambda's git flow.
+        Fork the Repo / Add TL Collaborator / Clone Repo in Github / (in terminal) git clone <link-to-repo> / cd <repo-name> / git checkout -b 'firstname-lastname' / git add. / git commit -m 'message' / git push -u origin branch-name / go back to fork on Github, change the branch name to 'firstname-lastname' and select new pull request / change base repo / add TL to reviewers / submit pull request 
+
+
+    Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model?
